@@ -26,3 +26,22 @@ This project is developed as part of a Web Development Internship. It is a full-
 - Responsive dashboard layout
 - Persistent data storage with MongoDB
 
+---
+
+## Credentials:
+ 
+Email  || Pass
+admin1@task.com  ||   admin1 
+admin2@task.com  ||   admin2 
+user1@task.com   ||   user11 
+user2@task.com   ||   user22 
+user3@task.com   ||   user33
+user4@task.com   ||   user44 
+user5@task.com   ||   user55
+
+
+
+
+
+
+
