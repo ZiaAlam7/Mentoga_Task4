@@ -2,6 +2,8 @@ import { cookies } from 'next/headers';
 import { getAuth } from 'firebase-admin/auth';
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
 
+// export const runtime = 'edge';
+
 const serviceAccount = {
   type: "service_account",
   project_id: "mentoga-task4",
@@ -26,7 +28,7 @@ export async function POST(req) {
   try {
     const decodedToken = await getAuth().verifyIdToken(token);
 
-    const cookieStore = await cookies();
+    const cookieStore =  await  cookies();
     cookieStore.set('__session', token, {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',

@@ -2,10 +2,15 @@
 
 This project is developed as part of a Web Development Internship. It is a full-stack Task Management Dashboard that includes user authentication and task CRUD functionalities. Users can register, log in, manage their tasks, and track progress via a responsive dashboard.
 
+## 🔗 Live Preview
+
+👉 [Click here to view the live app](https://mentoga-task4.vercel.app/)
+
 ---
 
 ## 🛠 Tech Stack Used
 
+- **TypeScript** – Language
 - **Next.js** – Full-stack React framework for SSR and routing
 - **React.js** – Component-based UI library
 - **TailwindCSS** – Utility-first CSS framework for styling
